@@ -14,6 +14,6 @@ let word3 = "is";
 let fullName = "My" + "name" + "is" + "Viktor";
   console.log(fullName);
 
-let userName = Вікторія;
+let userName = "Вікторія";
 let payment = 300;
-  alert("Дякуємо Вікторія, до сплати 300 гривень"); 
+  alert(`Дякуємо ${userName}, до сплати ${payment} гривень`); 
